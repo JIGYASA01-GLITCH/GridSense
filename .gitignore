@@ -1,0 +1,10 @@
+﻿.venv/
+__pycache__/
+.ipynb_checkpoints/
+*.py[cod]
+.env
+.DS_Store
+data/raw/
+data/processed/*.joblib
+
+data/processed/anomaly_detection_results.csv

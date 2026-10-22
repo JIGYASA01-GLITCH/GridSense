@@ -1,0 +1,4 @@
+Model,MAE_MW,RMSE_MW
+Persistence,1069.76,1373.61
+Seasonal_Naive,2183.07,3007.91
+Random_Forest,331.58,458.8

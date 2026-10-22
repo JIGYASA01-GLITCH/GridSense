@@ -1,0 +1,5 @@
+Category,Count,Percentage
+Flagged by both detectors,59,0.04
+Only rolling median + MAD,5002,3.44
+Only seasonality-aware detector,5989,4.12
+Flagged by neither,134316,92.4

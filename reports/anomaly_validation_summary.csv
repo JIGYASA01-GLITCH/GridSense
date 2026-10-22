@@ -1,0 +1,6 @@
+Metric,Value
+Total observations,145366
+Rolling Median + MAD flags,5061
+Seasonality-aware flags,6048
+Flags shared by both detectors,59
+Unique observations flagged by either detector,11050

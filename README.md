@@ -27,6 +27,26 @@ A time-series machine learning project that analyzes historical electricity dema
 
 Python · Pandas · NumPy · Scikit-learn · Streamlit · Plotly · Jupyter Notebook
 
+## 📂 Dataset & Outputs
+
+**Source dataset:** PJM East hourly electricity demand (`PJME_hourly.csv`).
+
+- **Time range:** Historical data ending on 3 August 2018
+- **Target variable:** `PJME_MW` — electricity demand in megawatts
+- **Data quality:** Missing timestamps and irregular time gaps are examined in the notebooks.
+
+### Generated Outputs
+
+| File | Purpose |
+|---|---|
+| `forecast_test_results.csv` | Baseline forecast evaluation |
+| `forecast_test_results_v2.csv` | Updated forecasting predictions |
+| `monitoring_results.csv` | Prediction-error monitoring |
+| `alert_history.csv` | Threshold-based warning records |
+| `anomaly_event_validation.csv` | Anomaly validation analysis |
+
+The raw dataset and trained model files are excluded from Git tracking. To run the complete project locally, place `PJME_hourly.csv` at `data/raw/PJME_hourly.csv` and generate the required outputs by running the notebooks in sequence.
+
 ## ⚙️ Run Locally
 
 **1. Clone the repository**
